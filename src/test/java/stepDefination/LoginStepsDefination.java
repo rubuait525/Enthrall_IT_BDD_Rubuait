@@ -8,6 +8,7 @@ import io.cucumber.java.en.When;
 public class LoginStepsDefination extends BaseClass{
 	@Given("Student is on the Enthrall IT Homepage URL")
 	public void student_is_on_the_enthrall_it_homepage_url() {
+//		driver.navigate().to("https://enthralit.com/login");
 		login.validateLogoAndTitle();
 
 	}

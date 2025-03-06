@@ -8,7 +8,10 @@ Feature: As a Student
   Background: student navigates to Application URL
     Given Student is on the Enthrall IT Homepage URL
 
-  Scenario: 
+
+
+
+  Scenario:
     When Student Click On login button Student puting value in each field Click Login Button to navigate to Dashboard page
     And Student Click on Automation to navigate to Automation page
     And Student Click Enroll Now to navigate to enroll home page
